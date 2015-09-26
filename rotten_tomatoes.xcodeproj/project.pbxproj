@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		45F7B7511BB70D510099EDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7B7501BB70D510099EDCE /* AppDelegate.swift */; };
-		45F7B7531BB70D510099EDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7B7521BB70D510099EDCE /* ViewController.swift */; };
 		45F7B7561BB70D510099EDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F7B7541BB70D510099EDCE /* Main.storyboard */; };
 		45F7B7581BB70D510099EDCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7B7571BB70D510099EDCE /* Images.xcassets */; };
 		45F7B75B1BB70D510099EDCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F7B7591BB70D510099EDCE /* LaunchScreen.xib */; };
 		45F7B7671BB70D510099EDCE /* rotten_tomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7B7661BB70D510099EDCE /* rotten_tomatoesTests.swift */; };
+		45F7B7731BB71CD40099EDCE /* RottenTomatoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7B7721BB71CD40099EDCE /* RottenTomatoesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		45F7B74B1BB70D510099EDCE /* rotten_tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotten_tomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F7B74F1BB70D510099EDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F7B7501BB70D510099EDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45F7B7521BB70D510099EDCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45F7B7551BB70D510099EDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F7B7571BB70D510099EDCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45F7B75A1BB70D510099EDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		45F7B7601BB70D510099EDCE /* rotten_tomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotten_tomatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F7B7651BB70D510099EDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F7B7661BB70D510099EDCE /* rotten_tomatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotten_tomatoesTests.swift; sourceTree = "<group>"; };
+		45F7B7721BB71CD40099EDCE /* RottenTomatoesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenTomatoesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				45F7B7501BB70D510099EDCE /* AppDelegate.swift */,
-				45F7B7521BB70D510099EDCE /* ViewController.swift */,
 				45F7B7541BB70D510099EDCE /* Main.storyboard */,
+				45F7B7721BB71CD40099EDCE /* RottenTomatoesTableViewController.swift */,
 				45F7B7571BB70D510099EDCE /* Images.xcassets */,
 				45F7B7591BB70D510099EDCE /* LaunchScreen.xib */,
 				45F7B74E1BB70D510099EDCE /* Supporting Files */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F7B7531BB70D510099EDCE /* ViewController.swift in Sources */,
 				45F7B7511BB70D510099EDCE /* AppDelegate.swift in Sources */,
+				45F7B7731BB71CD40099EDCE /* RottenTomatoesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

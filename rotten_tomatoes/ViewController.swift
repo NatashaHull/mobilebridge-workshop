@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var fancyButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func buttonWasTapped (sender: AnyObject) {
+        self.sampleText.text = "new sample text"
+    }
 
-
+    @IBOutlet weak var sampleText: UITextView!
 }
 
